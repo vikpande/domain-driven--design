@@ -1,0 +1,67 @@
+Key things to keep in mind : 
+- Inevitable - you do or not, good or bad, concisely or unconsciously
+- Adaptive not predictive - not perfect/ suitable for future, but more adaptive and malleable ( flexible, supple design) 
+- Design is iterative
+- Design should be Evolving 
+- Writing user story is a design decision/activity
+- Documenting tech/functional features is a design activity ( because its a design decision about interaction with systems, other integration features)
+- Most significant complexity of many applications is not technical, its domain itself, its in the user itself. 
+- Product owner tells the business value of the software not how to design or architect it
+- DDD bridges the gap between non-tech and tech people
+- 3 Domain types (domain distillation by Eric Evans ) 
+    - generic domain- what your business is doing , everyone else is also doing
+        - Don’t write your own software, use libraries /off the shelf code with minimum to no coding/customisation
+    - supporting domain - specific to business ( some custom software development) - Write some software to support your core domain
+        - Use junior staff to code /outsourcer to develop this part
+    - Core domain - smallest thing ( piece of software) that involves in excelling to immolate and differentiate with the market
+        - Explore, research, do in house with your best tech staff
+How to do DDD - 
+- Know your core domain
+    - Focus on business goals
+    - How the product will give a competitive edge over competition
+    - Write as little custom software to deliver business goals ( re-use) 
+    - Purpose alignment model ( differentiator vs mission critical) 
+- Create and enforce software boundaries -Every line of code that you write will have a lifetime and needs to be maintained, so define boundaries (Refer Playing filed matrix for the book “stand back and deliver”). Create boundaries using a context map ( Eric Evans book) : 
+    - Identifying boundaries 
+    - creating boundaries
+    - enforcing domain boundaries for design
+    - Integrate early ( integrate to isolate) 
+    
+- Ubiquitous language - Learning to speak the language of business domain . Shared language between business and technical teams
+    - Make teams understand what are “value objects”
+    - Make teams understand what are aggregates
+    - What are building block patters
+ 
+- Design process 
+  - TDD 
+    - Write a failing test
+    - Make it pass
+    - If not, Re-factor the code 
+    - repeat the above 3 steps until the tests pas
+- Acquire limited liability in the code ( Eric Evans book reference) 
+- Bake design into the process 
+    - Scrum is to structure things to accomplish some work on a regular basis 
+    - Design and development is the work ( design is more integral to development than Scrum) 
+    - Good design can accelerate product delivery in the mid to long term
+    - Create design workshop with the business - to understand what the domain is trying to do ( which problems its trying to solve) 
+    - UX design is like iceberg of the application and software design the rest of it 
+    - Process should server the product development and not the other way round 
+    - Design for design book  
+Wrong assumptions/Misconceptions - 
+- PO only drives design decisions 
+- No documentation ( should be living documentation)
+- Design once and follow through out
+- Good design not important as process excellence ( scrum, agile etc)
+References : 
+- https://dzone.com/articles/lets-talk-about-ddd-1 for Healthcare product
+- Books - mythical man months , book on software design 
+- Douglas martin quotes on design 
+- Mary poppendick - lean software development
+- Book - Stand back and deliver 
+- Paul Reyner - https://dddeurope.com/2016/paul-rayner.html 
+- DDD community  ( Eric Evans) - video snippets 
+- Martin fowler - Strangler pattern
+- Watch Rachel davis talk named - DD exchange , taking XP to the next level  
+- Domain language .com / ddd / whirlpool ( Eric Evans paper)
+- Lean UX , the design studio method ( how to approach design) 
+
