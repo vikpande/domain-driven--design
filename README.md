@@ -1,2 +1,2 @@
 # domain-driven--design
-notes from Evan's talk 
+notes from Paul Reyner talk 
