@@ -8,6 +8,11 @@ Key things to keep in mind :
 - Most significant complexity of many applications is not technical, its domain itself, its in the user itself. 
 - Product owner tells the business value of the software not how to design or architect it
 - DDD bridges the gap between non-tech and tech people
+- Bounded context - 
+    - For a software developer 
+        - a bounded context represents a way I designed my models around corresponding sub-domains. How many codebases a specific sub-domain is implemented with? What concepts do they consist of? Which concepts are applicable in each of them? That’s why - bounded contexts belongs to a Solution space.
+    - For a domain expert 
+        - bounded context is an area where certain business-processes are implemented, the certain ubiquitous language is applied, and a certain terms make a clear sense, while the others don’t. Probably the best way to represent this areas is just draw some rectangles connected with arrows    
 - 3 Domain types (domain distillation by Eric Evans ) 
     - generic domain- what your business is doing , everyone else is also doing
         - Don’t write your own software, use libraries /off the shelf code with minimum to no coding/customisation
